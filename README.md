@@ -70,3 +70,29 @@ See [research and source notes](docs/RESEARCH.md) for the studied revision and r
 ## License
 
 [MIT](LICENSE).
+
+<!-- BACKUP-SETUP -->
+## Local setup / restore
+
+This repository is a **backup copy** made before a machine reformat.
+
+| | |
+|---|---|
+| Original location on disk | `C:\Users\Admin\Projects\master-communication` |
+| Original remote | `https://github.com/Devyansh-Gupta/master-communication.git` |
+| Backup remote (this repo) | `https://github.com/Devyansh-Gupta/master-communication` |
+
+### Prerequisites
+
+- Git
+
+### Setup
+No dependency manifest was detected in this folder. The files are archived as-is - open them directly, or see the notes below.
+
+### What is *not* in this backup
+
+These are regenerable and were deliberately excluded (see `.gitignore`):
+
+`node_modules/`  `.venv/`  `dist/`  `build/`  `target/`  `.next/`  `__pycache__/`  `.tools/`  `.pytest_cache/`
+
+Run the setup steps above to recreate them.
